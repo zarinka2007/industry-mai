@@ -1,0 +1,516 @@
+{
+  "regions": [
+    {
+      "id": 1,
+      "name": "Республика Татарстан",
+      "capital": "Казань",
+      "federal_district": "Приволжский",
+      "coordinates": {"lat": 55.7964, "lon": 49.1089},
+      "social": {
+        "environment_index": 8.2,
+        "kindergartens_per_100": 85,
+        "vocational_colleges": 45,
+        "avg_rent_1room": 18500,
+        "avg_salary": 52000,
+        "population": 3894284
+      },
+      "economy": {
+        "has_sez": true,
+        "sez_name": "Алабуга",
+        "tax_benefit_percent": 2,
+        "insurance_reduction": true,
+        "energy_tariff": 4.85,
+        "grpp_per_capita": 685000,
+        "industrial_growth": 4.2
+      },
+      "infrastructure": {
+        "has_gas": true,
+        "free_power_kva": 15000,
+        "distance_to_substation": 2.5,
+        "connection_cost_per_kw": 850,
+        "railway_access": true,
+        "highway_access": true
+      },
+      "logistics": {
+        "steel_suppliers": [
+          {"name": "НЛМК", "distance": 450},
+          {"name": "Северсталь", "distance": 680}
+        ],
+        "insulation_suppliers": [
+          {"name": "Технониколь", "distance": 120},
+          {"name": "Rockwool", "distance": 280}
+        ],
+        "sales_radius": 450
+      },
+      "culture": {
+        "architectural_style": "Традиционный татарский + современный",
+        "traditional_materials": ["Белый камень", "Кирпич", "Дерево"],
+        "ornaments": ["Татарские узоры", "Геометрические орнаменты"],
+        "color_palette": {
+          "primary": "#1E5F8E",
+          "secondary": "#C9A227",
+          "accent": "#2E8B57",
+          "neutral": "#F5F5DC"
+        },
+        "climate_colors": ["#4682B4", "#F0E68C", "#DEB887"]
+      },
+      "environmental_class": 3,
+      "industrial_zones": [
+        {
+          "name": "Промзона ОЭЗ Алабуга",
+          "area_hectares": 2500,
+          "price_per_hectare": 2500000,
+          "has_utilities": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Калужская область",
+      "capital": "Калуга",
+      "federal_district": "Центральный",
+      "coordinates": {"lat": 54.5293, "lon": 36.2754},
+      "social": {
+        "environment_index": 7.8,
+        "kindergartens_per_100": 82,
+        "vocational_colleges": 32,
+        "avg_rent_1room": 16500,
+        "avg_salary": 48000,
+        "population": 1010930
+      },
+      "economy": {
+        "has_sez": true,
+        "sez_name": "Ворсиново",
+        "tax_benefit_percent": 2,
+        "insurance_reduction": true,
+        "energy_tariff": 5.12,
+        "grpp_per_capita": 625000,
+        "industrial_growth": 3.8
+      },
+      "infrastructure": {
+        "has_gas": true,
+        "free_power_kva": 12000,
+        "distance_to_substation": 3.2,
+        "connection_cost_per_kw": 920,
+        "railway_access": true,
+        "highway_access": true
+      },
+      "logistics": {
+        "steel_suppliers": [
+          {"name": "Северсталь", "distance": 280},
+          {"name": "НЛМК", "distance": 220}
+        ],
+        "insulation_suppliers": [
+          {"name": "Технониколь", "distance": 180},
+          {"name": "Knauf", "distance": 95}
+        ],
+        "sales_radius": 400
+      },
+      "culture": {
+        "architectural_style": "Русский классицизм + индустриальный",
+        "traditional_materials": ["Кирпич", "Дерево", "Камень"],
+        "ornaments": ["Традиционная резьба", "Классические элементы"],
+        "color_palette": {
+          "primary": "#8B4513",
+          "secondary": "#DAA520",
+          "accent": "#228B22",
+          "neutral": "#FFEBCD"
+        },
+        "climate_colors": ["#87CEEB", "#DDA0DD", "#F0E68C"]
+      },
+      "environmental_class": 3,
+      "industrial_zones": [
+        {
+          "name": "ОЭЗ Ворсиново",
+          "area_hectares": 1800,
+          "price_per_hectare": 3200000,
+          "has_utilities": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Свердловская область",
+      "capital": "Екатеринбург",
+      "federal_district": "Уральский",
+      "coordinates": {"lat": 56.8389, "lon": 60.6057},
+      "social": {
+        "environment_index": 7.2,
+        "kindergartens_per_100": 78,
+        "vocational_colleges": 52,
+        "avg_rent_1room": 19500,
+        "avg_salary": 56000,
+        "population": 4325256
+      },
+      "economy": {
+        "has_sez": true,
+        "sez_name": "Титановая долина",
+        "tax_benefit_percent": 2,
+        "insurance_reduction": true,
+        "energy_tariff": 4.25,
+        "grpp_per_capita": 715000,
+        "industrial_growth": 4.5
+      },
+      "infrastructure": {
+        "has_gas": true,
+        "free_power_kva": 18000,
+        "distance_to_substation": 1.8,
+        "connection_cost_per_kw": 780,
+        "railway_access": true,
+        "highway_access": true
+      },
+      "logistics": {
+        "steel_suppliers": [
+          {"name": "Мечел", "distance": 85},
+          {"name": "ЧТПЗ", "distance": 120}
+        ],
+        "insulation_suppliers": [
+          {"name": "Технониколь", "distance": 250},
+          {"name": "Rockwool", "distance": 180}
+        ],
+        "sales_radius": 500
+      },
+      "culture": {
+        "architectural_style": "Уральский индустриальный + конструктивизм",
+        "traditional_materials": ["Металл", "Бетон", "Стекло"],
+        "ornaments": ["Геометрические формы", "Индустриальные элементы"],
+        "color_palette": {
+          "primary": "#4A5568",
+          "secondary": "#B8860B",
+          "accent": "#2E8B57",
+          "neutral": "#E2E8F0"
+        },
+        "climate_colors": ["#708090", "#F5F5DC", "#4682B4"]
+      },
+      "environmental_class": 4,
+      "industrial_zones": [
+        {
+          "name": "ОЭЗ Титановая долина",
+          "area_hectares": 1200,
+          "price_per_hectare": 2800000,
+          "has_utilities": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ленинградская область",
+      "capital": "Санкт-Петербург",
+      "federal_district": "Северо-Западный",
+      "coordinates": {"lat": 59.9343, "lon": 30.3351},
+      "social": {
+        "environment_index": 8.5,
+        "kindergartens_per_100": 88,
+        "vocational_colleges": 38,
+        "avg_rent_1room": 24500,
+        "avg_salary": 62000,
+        "population": 1876399
+      },
+      "economy": {
+        "has_sez": true,
+        "sez_name": "Гавань",
+        "tax_benefit_percent": 2,
+        "insurance_reduction": true,
+        "energy_tariff": 5.45,
+        "grpp_per_capita": 785000,
+        "industrial_growth": 3.5
+      },
+      "infrastructure": {
+        "has_gas": true,
+        "free_power_kva": 14000,
+        "distance_to_substation": 2.1,
+        "connection_cost_per_kw": 1050,
+        "railway_access": true,
+        "highway_access": true
+      },
+      "logistics": {
+        "steel_suppliers": [
+          {"name": "Северсталь", "distance": 120},
+          {"name": "Металлург", "distance": 180}
+        ],
+        "insulation_suppliers": [
+          {"name": "Rockwool", "distance": 95},
+          {"name": "Paroc", "distance": 150}
+        ],
+        "sales_radius": 350
+      },
+      "culture": {
+        "architectural_style": "Северный модерн + скандинавский",
+        "traditional_materials": ["Гранит", "Кирпич", "Дерево"],
+        "ornaments": ["Северные мотивы", "Морская тематика"],
+        "color_palette": {
+          "primary": "#4682B4",
+          "secondary": "#C0C0C0",
+          "accent": "#4169E1",
+          "neutral": "#F0F8FF"
+        },
+        "climate_colors": ["#B0C4DE", "#D3D3D3", "#87CEEB"]
+      },
+      "environmental_class": 2,
+      "industrial_zones": [
+        {
+          "name": "Промзона Гавань",
+          "area_hectares": 950,
+          "price_per_hectare": 4200000,
+          "has_utilities": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Краснодарский край",
+      "capital": "Краснодар",
+      "federal_district": "Южный",
+      "coordinates": {"lat": 45.0355, "lon": 38.9753},
+      "social": {
+        "environment_index": 7.9,
+        "kindergartens_per_100": 80,
+        "vocational_colleges": 41,
+        "avg_rent_1room": 21000,
+        "avg_salary": 47000,
+        "population": 5675558
+      },
+      "economy": {
+        "has_sez": false,
+        "sez_name": null,
+        "tax_benefit_percent": 0,
+        "insurance_reduction": false,
+        "energy_tariff": 5.85,
+        "grpp_per_capita": 485000,
+        "industrial_growth": 3.2
+      },
+      "infrastructure": {
+        "has_gas": true,
+        "free_power_kva": 10000,
+        "distance_to_substation": 3.8,
+        "connection_cost_per_kw": 1150,
+        "railway_access": true,
+        "highway_access": true
+      },
+      "logistics": {
+        "steel_suppliers": [
+          {"name": "Ашинский метзавод", "distance": 380},
+          {"name": "Красный Октябрь", "distance": 280}
+        ],
+        "insulation_suppliers": [
+          {"name": "Технониколь", "distance": 220},
+          {"name": "Knauf", "distance": 180}
+        ],
+        "sales_radius": 400
+      },
+      "culture": {
+        "architectural_style": "Южный колорит + средиземноморский",
+        "traditional_materials": ["Известняк", "Красная черепица", "Дерево"],
+        "ornaments": ["Южные узоры", "Растительные мотивы"],
+        "color_palette": {
+          "primary": "#E9967A",
+          "secondary": "#FFD700",
+          "accent": "#20B2AA",
+          "neutral": "#FFF8DC"
+        },
+        "climate_colors": ["#FFA07A", "#F0E68C", "#98FB98"]
+      },
+      "environmental_class": 3,
+      "industrial_zones": [
+        {
+          "name": "Промзона Южная",
+          "area_hectares": 850,
+          "price_per_hectare": 3500000,
+          "has_utilities": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Новосибирская область",
+      "capital": "Новосибирск",
+      "federal_district": "Сибирский",
+      "coordinates": {"lat": 55.0084, "lon": 82.9357},
+      "social": {
+        "environment_index": 7.4,
+        "kindergartens_per_100": 79,
+        "vocational_colleges": 48,
+        "avg_rent_1room": 17500,
+        "avg_salary": 51000,
+        "population": 2798170
+      },
+      "economy": {
+        "has_sez": true,
+        "sez_name": "Новосибирск",
+        "tax_benefit_percent": 2,
+        "insurance_reduction": true,
+        "energy_tariff": 4.15,
+        "grpp_per_capita": 595000,
+        "industrial_growth": 4.0
+      },
+      "infrastructure": {
+        "has_gas": true,
+        "free_power_kva": 16000,
+        "distance_to_substation": 2.3,
+        "connection_cost_per_kw": 820,
+        "railway_access": true,
+        "highway_access": true
+      },
+      "logistics": {
+        "steel_suppliers": [
+          {"name": "Запсиб", "distance": 320},
+          {"name": "Мечел", "distance": 450}
+        ],
+        "insulation_suppliers": [
+          {"name": "Технониколь", "distance": 280},
+          {"name": "Rockwool", "distance": 350}
+        ],
+        "sales_radius": 550
+      },
+      "culture": {
+        "architectural_style": "Сибирский функционализм + современный",
+        "traditional_materials": ["Дерево", "Кирпич", "Металл"],
+        "ornaments": ["Сибирские мотивы", "Лесная тематика"],
+        "color_palette": {
+          "primary": "#2F4F4F",
+          "secondary": "#CD853F",
+          "accent": "#228B22",
+          "neutral": "#F5F5DC"
+        },
+        "climate_colors": ["#4682B4", "#FFFFFF", "#8FBC8F"]
+      },
+      "environmental_class": 3,
+      "industrial_zones": [
+        {
+          "name": "ОЭЗ Новосибирск",
+          "area_hectares": 1100,
+          "price_per_hectare": 2400000,
+          "has_utilities": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Нижегородская область",
+      "capital": "Нижний Новгород",
+      "federal_district": "Приволжский",
+      "coordinates": {"lat": 56.2965, "lon": 43.9361},
+      "social": {
+        "environment_index": 7.6,
+        "kindergartens_per_100": 81,
+        "vocational_colleges": 44,
+        "avg_rent_1room": 16000,
+        "avg_salary": 46000,
+        "population": 3119115
+      },
+      "economy": {
+        "has_sez": true,
+        "sez_name": "Кулибин",
+        "tax_benefit_percent": 2,
+        "insurance_reduction": true,
+        "energy_tariff": 4.65,
+        "grpp_per_capita": 565000,
+        "industrial_growth": 3.7
+      },
+      "infrastructure": {
+        "has_gas": true,
+        "free_power_kva": 13000,
+        "distance_to_substation": 2.8,
+        "connection_cost_per_kw": 890,
+        "railway_access": true,
+        "highway_access": true
+      },
+      "logistics": {
+        "steel_suppliers": [
+          {"name": "Выксунский металлургический", "distance": 180},
+          {"name": "НЛМК", "distance": 320}
+        ],
+        "insulation_suppliers": [
+          {"name": "Технониколь", "distance": 150},
+          {"name": "Knauf", "distance": 220}
+        ],
+        "sales_radius": 420
+      },
+      "culture": {
+        "architectural_style": "Волжский традиционный + индустриальный",
+        "traditional_materials": ["Кирпич", "Дерево", "Изразцы"],
+        "ornaments": ["Волжские мотивы", "Традиционная резьба"],
+        "color_palette": {
+          "primary": "#191970",
+          "secondary": "#DAA520",
+          "accent": "#2E8B57",
+          "neutral": "#FFEBCD"
+        },
+        "climate_colors": ["#4169E1", "#F0E68C", "#8B4513"]
+      },
+      "environmental_class": 3,
+      "industrial_zones": [
+        {
+          "name": "ОЭЗ Кулибин",
+          "area_hectares": 980,
+          "price_per_hectare": 2600000,
+          "has_utilities": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Республика Башкортостан",
+      "capital": "Уфа",
+      "federal_district": "Приволжский",
+      "coordinates": {"lat": 54.7388, "lon": 55.9721},
+      "social": {
+        "environment_index": 7.5,
+        "kindergartens_per_100": 77,
+        "vocational_colleges": 39,
+        "avg_rent_1room": 15500,
+        "avg_salary": 49000,
+        "population": 4037141
+      },
+      "economy": {
+        "has_sez": false,
+        "sez_name": null,
+        "tax_benefit_percent": 0,
+        "insurance_reduction": false,
+        "energy_tariff": 4.35,
+        "grpp_per_capita": 545000,
+        "industrial_growth": 3.9
+      },
+      "infrastructure": {
+        "has_gas": true,
+        "free_power_kva": 11000,
+        "distance_to_substation": 3.1,
+        "connection_cost_per_kw": 850,
+        "railway_access": true,
+        "highway_access": true
+      },
+      "logistics": {
+        "steel_suppliers": [
+          {"name": "Мечел", "distance": 280},
+          {"name": "ЧТПЗ", "distance": 350}
+        ],
+        "insulation_suppliers": [
+          {"name": "Технониколь", "distance": 320},
+          {"name": "Rockwool", "distance": 380}
+        ],
+        "sales_radius": 480
+      },
+      "culture": {
+        "architectural_style": "Башкирский национальный + современный",
+        "traditional_materials": ["Дерево", "Камень", "Национальные узоры"],
+        "ornaments": ["Башкирские орнаменты", "Национальные мотивы"],
+        "color_palette": {
+          "primary": "#006400",
+          "secondary": "#FFD700",
+          "accent": "#DC143C",
+          "neutral": "#FAEBD7"
+        },
+        "climate_colors": ["#228B22", "#FFD700", "#87CEEB"]
+      },
+      "environmental_class": 3,
+      "industrial_zones": [
+        {
+          "name": "Промзона Уфа-Юг",
+          "area_hectares": 750,
+          "price_per_hectare": 2200000,
+          "has_utilities": true
+        }
+      ]
+    }
+  ]
+}
