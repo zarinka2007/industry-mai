@@ -70,4 +70,4 @@ streamlit run app.py
 6. Команда
 Сафина Зарина  – Frontend  / Backend Logic
 Салимова Алина – Team Lead/ Presentation
-Благовещенская Анна – Data Analyst / JSON Architecture
+
