@@ -13,7 +13,7 @@
 **Тип производства:** Сэндвич-панели (с утеплителем ППУ / минвата / ППС).
 
 ## 🚀 Демо
-🔗 **[Открыть работающее приложение]((https://industry-mai-y9wbzqscjnvrbaqp9gbvbh.streamlit.app/))**  
+🔗 **[Открыть работающее приложение](https://industry-mai-y9wbzqscjnvrbaqp9gbvbh.streamlit.app)**  
 
 
 ## 🛠 Технологический стек
